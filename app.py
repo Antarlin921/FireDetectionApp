@@ -17,9 +17,6 @@ model=load_model(r'C:\Users\Antarlin\Desktop\Data_Science\Deployment26July2021\F
 def hello():
     return render_template("home.html")
 
-# @app.route('/home')
-# def homepage():
-    return render_template("home.html")
 
 @app.route('/home/detection')
 def detectionpage():
